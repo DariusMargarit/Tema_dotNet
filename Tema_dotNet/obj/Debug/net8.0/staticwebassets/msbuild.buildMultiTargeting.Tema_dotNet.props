@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tema_dotNet.props" />
+</Project>

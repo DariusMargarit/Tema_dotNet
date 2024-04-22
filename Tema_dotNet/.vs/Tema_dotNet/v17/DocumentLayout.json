@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Tema1_dotNet\\Tema_dotNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Database\\Entities\\Produs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|d:\\c#\\tema1_dotnet\\tema_dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|d:\\c#\\tema1_dotnet\\tema_dotnet\\controllers\\producatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:controllers\\producatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Core\\Mapping\\ProducatorMappingMethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Core\\Dto\\Response\\ProdusResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Core\\Services\\ProducatorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Database\\Entities\\Producator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Tema_dotNet.Core\\Mapping\\ProdusMappingMethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProducatorMappingMethods.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Core\\Mapping\\ProducatorMappingMethods.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Core\\Mapping\\ProducatorMappingMethods.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Core\\Mapping\\ProducatorMappingMethods.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Core\\Mapping\\ProducatorMappingMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:51:10.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdusResponseDto.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Core\\Dto\\Response\\ProdusResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Core\\Dto\\Response\\ProdusResponseDto.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Core\\Dto\\Response\\ProdusResponseDto.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Core\\Dto\\Response\\ProdusResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:48:28.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produs.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:13:00.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProducatorResponseDto.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:47:14.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProducatorService.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:45:22.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Producator.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Database\\Entities\\Producator.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Database\\Entities\\Producator.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Database\\Entities\\Producator.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Database\\Entities\\Producator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:12:45.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tema_dotNet.Core.csproj",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-21T19:44:17.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProducatorRepository.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:28:29.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Tema1_dotNet\\Tema_dotNet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\c#\\Tema1_dotNet\\Tema_dotNet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T20:07:45.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdusMappingMethods.cs",
+              "DocumentMoniker": "D:\\c#\\Tema_dotNet.Core\\Mapping\\ProdusMappingMethods.cs",
+              "RelativeDocumentMoniker": "..\\..\\Tema_dotNet.Core\\Mapping\\ProdusMappingMethods.cs",
+              "ToolTip": "D:\\c#\\Tema_dotNet.Core\\Mapping\\ProdusMappingMethods.cs",
+              "RelativeToolTip": "..\\..\\Tema_dotNet.Core\\Mapping\\ProdusMappingMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T19:55:00.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProducatorController.cs",
+              "DocumentMoniker": "D:\\c#\\Tema1_dotNet\\Tema_dotNet\\Controllers\\ProducatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProducatorController.cs",
+              "ToolTip": "D:\\c#\\Tema1_dotNet\\Tema_dotNet\\Controllers\\ProducatorController.cs",
+              "RelativeToolTip": "Controllers\\ProducatorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T20:03:00.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
