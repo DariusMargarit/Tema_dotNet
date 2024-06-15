@@ -6,13 +6,14 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Tema_dotNet.Core.Dto.Response;
+using Tema_dotNet.Core.Dto.Request;
 using Tema_dotNet.Database.Entities;
 
 namespace Tema_dotNet.Core.Mapping
 {
     public static class ProducatorMappingMethods
     {
-        public static ProducatorResponseDto MapToProductResponseDto(this Producator producator)
+        public static ProducatorResponseDto MapToProducatorResponseDto(this Producator producator)
         {
             var result = new ProducatorResponseDto();
             result.Id = producator.Id;
@@ -26,13 +27,24 @@ namespace Tema_dotNet.Core.Mapping
             return result;
         }
 
-        public static List<ProducatorResponseDto> MapToProductResponseDtoList(this List<Producator> producatori)
+        public static List<ProducatorResponseDto> MapToProducatorResponseDtoList(this List<Producator> producatori)
         {
             List<ProducatorResponseDto> result = new List<ProducatorResponseDto>();
             foreach (var producator in producatori)
             {
-                result.Add(producator.MapToProductResponseDto());
+                result.Add(producator.MapToProducatorResponseDto());
             }
+            return result;
+        }
+
+        public static Producator ToEntity(this AddProducatorRequestDto dto)
+        {
+            if (dto == null)
+            {
+                return null;
+            }
+            var result = new Producator();
+            result.Nume = dto.Nume;
             return result;
         }
     }

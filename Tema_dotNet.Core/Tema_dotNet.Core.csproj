@@ -10,8 +10,4 @@
     <ProjectReference Include="..\Tema_dotNet.Database\Tema_dotNet.Database.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Dto\Request\" />
-  </ItemGroup>
-
 </Project>

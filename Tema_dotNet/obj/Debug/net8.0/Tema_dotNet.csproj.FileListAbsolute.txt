@@ -278,3 +278,4 @@ D:\c#\Tema1_dotNet\Tema_dotNet\obj\Debug\net8.0\refint\Tema_dotNet.dll
 D:\c#\Tema1_dotNet\Tema_dotNet\obj\Debug\net8.0\Tema_dotNet.pdb
 D:\c#\Tema1_dotNet\Tema_dotNet\obj\Debug\net8.0\Tema_dotNet.genruntimeconfig.cache
 D:\c#\Tema1_dotNet\Tema_dotNet\obj\Debug\net8.0\ref\Tema_dotNet.dll
+D:\c#\Tema1_dotNet\Tema_dotNet\obj\Debug\net8.0\Tema_dotNet.sourcelink.json

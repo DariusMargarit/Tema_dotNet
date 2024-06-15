@@ -28,3 +28,4 @@ D:\c#\Tema1_dotNet\Tema_dotNet.Core\obj\Debug\net8.0\Tema_dotNet.Core.dll
 D:\c#\Tema1_dotNet\Tema_dotNet.Core\obj\Debug\net8.0\refint\Tema_dotNet.Core.dll
 D:\c#\Tema1_dotNet\Tema_dotNet.Core\obj\Debug\net8.0\Tema_dotNet.Core.pdb
 D:\c#\Tema1_dotNet\Tema_dotNet.Core\obj\Debug\net8.0\ref\Tema_dotNet.Core.dll
+D:\c#\Tema1_dotNet\Tema_dotNet.Core\obj\Debug\net8.0\Tema_dotNet.Core.sourcelink.json

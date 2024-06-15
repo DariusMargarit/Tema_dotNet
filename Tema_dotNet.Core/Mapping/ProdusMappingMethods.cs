@@ -19,5 +19,15 @@ namespace Tema_dotNet.Core.Mapping
                 Pret = produs.Pret
             };
         }
+
+        public static List<ProdusResponseDto> MapProdusToProdusResponseDtoList(this List<Produs> produse)
+        {
+            List<ProdusResponseDto> result = new List<ProdusResponseDto>();
+            foreach (var produs in produse)
+            {
+                result.Add(produs.MapProdusToProdusResponseDto());
+            }
+            return result;
+        }
     }
 }

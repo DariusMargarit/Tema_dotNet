@@ -15,6 +15,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ProducatorManagementDBContext>();
 builder.Services.AddScoped<ProducatorRepository>();
 builder.Services.AddScoped<ProducatorService>();
+builder.Services.AddScoped<ProdusRepository>();
+builder.Services.AddScoped<ProdusService>();
 
 var app = builder.Build();
 

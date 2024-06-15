@@ -23,5 +23,11 @@ namespace Tema_dotNet.Database.Repositories
             var result = _context.Producatori.Include(p => p.Produse).ToList();
             return result;
         }
+
+        public void Add(Producator producator)
+        {
+            _context.Producatori.Add(producator);
+            _context.SaveChanges();
+        }
     }
 }

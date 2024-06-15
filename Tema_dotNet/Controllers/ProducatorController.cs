@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Tema_dotNet.Core.Dto.Request;
 using Tema_dotNet.Core.Dto.Response;
 using Tema_dotNet.Core.Services;
 
@@ -20,6 +21,14 @@ namespace Tema_dotNet.Controllers
         {
             var result = _producatorService.GetProducatori();
             return Ok(result);
+        }
+
+        [HttpPost]
+        [Route("add")]
+        public IActionResult AddProducatori([FromBody] AddProducatorRequestDto payload)
+        {
+            _producatorService.AddProducator(payload);
+            return Ok();
         }
     }
 }

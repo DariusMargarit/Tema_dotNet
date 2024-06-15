@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tema_dotNet.Database.Repositories;
 using Tema_dotNet.Core.Dto.Response;
+using Tema_dotNet.Core.Dto.Request;
 using Tema_dotNet.Core.Mapping;
 
 namespace Tema_dotNet.Core.Services
@@ -21,7 +22,13 @@ namespace Tema_dotNet.Core.Services
         public List<ProducatorResponseDto> GetProducatori()
         {
             var result = _producatorRepository.GetProducatori();
-            return result.MapToProductResponseDtoList();
+            return result.MapToProducatorResponseDtoList();
+        }
+
+        public void AddProducator(AddProducatorRequestDto payload)
+        {
+            var producator = payload.ToEntity();
+            _producatorRepository.Add(producator);
         }
     }
 }
