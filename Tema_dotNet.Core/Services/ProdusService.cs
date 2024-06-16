@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tema_dotNet.Database.Repositories;
 using Tema_dotNet.Core.Dto.Response;
+using Tema_dotNet.Core.Dto.Request;
 using Tema_dotNet.Core.Mapping;
 
 namespace Tema_dotNet.Core.Services
@@ -22,6 +23,21 @@ namespace Tema_dotNet.Core.Services
         {
             var result = _produsRepository.GetProduse();
             return result.MapProdusToProdusResponseDtoList();
+        }
+
+        public void AddProdus(AddProdusRequestDto payload)
+        {
+            _produsRepository.AddProdus(payload.ToEntity());
+        }
+
+        public void EditProdus(int produsId, EditProdusRequestDto payload)
+        {
+            var produs = _produsRepository.GetById(produsId);
+            if (produs == null)
+            {
+                throw new Exception("Produs not found");
+            }
+            _produsRepository.EditProdus(produs, payload.ToEntity());
         }
     }
 }
