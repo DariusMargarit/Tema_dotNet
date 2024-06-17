@@ -45,5 +45,20 @@ namespace Tema_dotNet.Controllers
             }
             return Ok();
         }
+
+        [HttpDelete]
+        [Route("delete-produs")]
+        public IActionResult DeleteProdus([FromQuery] int produsId)
+        {
+            try
+            {
+                _produsService.DeleteProdus(produsId);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            return Ok();
+        }
     }
 }

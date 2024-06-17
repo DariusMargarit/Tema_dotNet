@@ -39,5 +39,15 @@ namespace Tema_dotNet.Core.Services
             }
             _produsRepository.EditProdus(produs, payload.ToEntity());
         }
+
+        public void DeleteProdus(int produsId)
+        {
+            var produs = _produsRepository.GetById(produsId);
+            if (produs == null)
+            {
+                throw new Exception("Produs not found");
+            }
+            _produsRepository.DeleteProdus(produs);
+        }
     }
 }

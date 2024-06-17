@@ -42,5 +42,11 @@ namespace Tema_dotNet.Database.Repositories
             produs.ProducatorId = payload.ProducatorId;
             _context.SaveChanges();
         }
+
+        public void DeleteProdus(Produs produs)
+        {
+            _context.Produse.Remove(produs);
+            _context.SaveChanges();
+        }
     }
 }
