@@ -18,6 +18,12 @@ namespace Tema_dotNet.Database.Repositories
             _context = context;
         }
 
+        public Producator GetById(int producatorId)
+        {
+            var result = _context.Producatori.FirstOrDefault(p => p.Id == producatorId);
+            return result;
+        }
+
         public List<Producator> GetProducatori()
         {
             var result = _context.Producatori.Include(p => p.Produse).ToList();
@@ -27,6 +33,18 @@ namespace Tema_dotNet.Database.Repositories
         public void Add(Producator producator)
         {
             _context.Producatori.Add(producator);
+            _context.SaveChanges();
+        }
+
+        public void Update(Producator producator)
+        {
+            _context.Producatori.Update(producator);
+            _context.SaveChanges();
+        }
+
+        public void Delete(Producator producator)
+        {
+            _context.Producatori.Remove(producator);
             _context.SaveChanges();
         }
     }

@@ -47,5 +47,16 @@ namespace Tema_dotNet.Core.Mapping
             result.Nume = dto.Nume;
             return result;
         }
+
+        public static Producator ToEntity(this EditProducatorRequestDto dto)
+        {
+            if (dto == null)
+            {
+                return null;
+            }
+            var result = new Producator();
+            result.Nume = dto.Nume;
+            return result;
+        }
     }
 }

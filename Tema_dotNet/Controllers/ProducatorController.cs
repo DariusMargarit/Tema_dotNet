@@ -30,5 +30,35 @@ namespace Tema_dotNet.Controllers
             _producatorService.AddProducator(payload);
             return Ok();
         }
+
+        [HttpPut]
+        [Route("{producatorId}/update")]
+        public IActionResult EditProducator([FromRoute] int producatorId, [FromBody] EditProducatorRequestDto payload)
+        {
+            try
+            {
+                _producatorService.EditProducator(producatorId, payload);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            return Ok();
+        }
+
+        [HttpDelete]
+        [Route("delete-producator")]
+        public IActionResult DeleteProducator([FromQuery] int produsId)
+        {
+            try
+            {
+                _producatorService.DeleteProducator(produsId);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            return Ok();
+        }
     }
 }

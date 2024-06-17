@@ -30,5 +30,26 @@ namespace Tema_dotNet.Core.Services
             var producator = payload.ToEntity();
             _producatorRepository.Add(producator);
         }
+
+        public void EditProducator(int producatorId, EditProducatorRequestDto payload)
+        {
+            var producator = _producatorRepository.GetById(producatorId);
+            if (producator == null)
+            {
+                throw new Exception("Producator not found");
+            }
+            producator.Nume = payload.Nume;
+            _producatorRepository.Update(producator);
+        }
+
+        public void DeleteProducator(int producatorId)
+        {
+            var producator = _producatorRepository.GetById(producatorId);
+            if (producator == null)
+            {
+                throw new Exception("Producator not found");
+            }
+            _producatorRepository.Delete(producator);
+        }
     }
 }

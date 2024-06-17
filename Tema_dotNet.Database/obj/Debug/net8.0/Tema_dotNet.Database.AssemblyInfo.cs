@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tema_dotNet.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f3cc3e96c6a30ed6d4131c0ebb6483d01e68d7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00deebaddd4d18428263314adb88c8ad9b610165")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tema_dotNet.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tema_dotNet.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
