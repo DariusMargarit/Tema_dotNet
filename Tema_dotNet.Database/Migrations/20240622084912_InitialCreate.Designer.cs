@@ -11,8 +11,8 @@ using Tema_dotNet.Database.Context;
 namespace Tema_dotNet.Database.Migrations
 {
     [DbContext(typeof(ProducatorManagementDBContext))]
-    [Migration("20240421192257_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20240622084912_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,7 +38,7 @@ namespace Tema_dotNet.Database.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Producatori");
                 });
 
             modelBuilder.Entity("Tema_dotNet.Database.Entities.Produs", b =>
@@ -53,6 +53,9 @@ namespace Tema_dotNet.Database.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Pret")
+                        .HasColumnType("int");
+
                     b.Property<int>("ProducatorId")
                         .HasColumnType("int");
 
@@ -60,7 +63,54 @@ namespace Tema_dotNet.Database.Migrations
 
                     b.HasIndex("ProducatorId");
 
-                    b.ToTable("Projects");
+                    b.ToTable("Produse");
+                });
+
+            modelBuilder.Entity("Tema_dotNet.Database.Entities.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("Tema_dotNet.Database.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Tema_dotNet.Database.Entities.Produs", b =>
@@ -74,9 +124,25 @@ namespace Tema_dotNet.Database.Migrations
                     b.Navigation("Producator");
                 });
 
+            modelBuilder.Entity("Tema_dotNet.Database.Entities.User", b =>
+                {
+                    b.HasOne("Tema_dotNet.Database.Entities.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
             modelBuilder.Entity("Tema_dotNet.Database.Entities.Producator", b =>
                 {
                     b.Navigation("Produse");
+                });
+
+            modelBuilder.Entity("Tema_dotNet.Database.Entities.Role", b =>
+                {
+                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }
