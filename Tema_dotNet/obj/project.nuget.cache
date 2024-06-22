@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gaezaO9n9S/M0Wv0HMvVA4d6D70HOWMHaf4HSwFin+HixO0DKbg+pVkOIDK2Sx3jSzNOiamtC63EmYS0jjLZig==",
+  "dgSpecHash": "cl62CMmvGiXJnNxE+NSn+V1QgfhyQAj854wcpV0k5PY+NCarFxToG08IOc4Gf4BqF9u85d3Nt15F4js2v933GQ==",
   "success": true,
-  "projectFilePath": "D:\\c#\\Tema1_dotNet\\Tema_dotNet\\Tema_dotNet.csproj",
+  "projectFilePath": "D:\\c#\\Tema_dotNet\\Tema_dotNet\\Tema_dotNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Darius\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Darius\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Darius\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Darius\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Darius\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Darius\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
