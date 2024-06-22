@@ -12,6 +12,9 @@ namespace Tema_dotNet.Database.Context
     {
         public DbSet<Producator> Producatori { get; set; }
         public DbSet<Produs> Produse { get; set; }
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Role> Roles { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Tema_dotNet.Database.Context;
 
@@ -10,9 +11,11 @@ using Tema_dotNet.Database.Context;
 namespace Tema_dotNet.Database.Migrations
 {
     [DbContext(typeof(ProducatorManagementDBContext))]
-    partial class ProducatorManagementDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240622084912_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
