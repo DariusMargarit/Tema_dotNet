@@ -1,32 +1,32 @@
 ﻿using Tema_dotNet.Core.Dto.Request;
 using Tema_dotNet.Core.Dto.Response;
 using Tema_dotNet.Core.Dto;
-using Tema_dotNet.Core.Services;
+using Tema_dotNet.Core.Mapping;
 using Tema_dotNet.Database.Repositories;
 
-namespace Tema_dotNet.Core.Dto
+namespace Tema_dotNet.Core.Services
 {
-    public class RoleService : IRoleService
+    public class RolService 
     {
-        private readonly IRoleRepository _roleRepository;
+        private readonly RolRepository _rolRepository;
 
-        public RoleService(IRoleRepository roleRepository)
+        public RolService(RolRepository rolRepository)
         {
-            _roleRepository = roleRepository;
+            _rolRepository = rolRepository;
         }
 
-        public List<RoleResponseDto> GetAll()
+        public List<RolResponseDto> GetAll()
         {
-            var roles = _roleRepository.GetAll();
+            var roles = _rolRepository.GetAll();
             var rolesDtos = roles.MapToRoleResponseDtos();
             return rolesDtos;
         }
 
-        public RoleResponseDto Get(int id)
+        public RolResponseDto Get(int id)
         {
             try
             {
-                var role = _roleRepository.Get(id);
+                var role = _rolRepository.Get(id);
                 var roleDto = role.MapToRoleResponseDto();
                 return roleDto;
             }
@@ -36,12 +36,12 @@ namespace Tema_dotNet.Core.Dto
             }
         }
 
-        public void Create(RoleRequestDto roleDto)
+        public void Create(RolRequestDto rolDto)
         {
             try
             {
-                var role = roleDto.MapToRole();
-                _roleRepository.Create(role);
+                var role = rolDto.MapToRole();
+                _rolRepository.Create(role);
             }
             catch (Exception e)
             {
@@ -49,12 +49,12 @@ namespace Tema_dotNet.Core.Dto
             }
         }
 
-        public void Update(int id, RoleRequestDto updatedRoleDto)
+        public void Update(int id, RolRequestDto updatedRolDto)
         {
             try
             {
-                var updatedRole = updatedRoleDto.MapToRole();
-                _roleRepository.Update(id, updatedRole);
+                var updatedRole = updatedRolDto.MapToRole();
+                _rolRepository.Update(id, updatedRole);
             }
             catch (Exception e)
             {
@@ -66,7 +66,7 @@ namespace Tema_dotNet.Core.Dto
         {
             try
             {
-                _roleRepository.Delete(id);
+                _rolRepository.Delete(id);
             }
             catch (Exception e)
             {

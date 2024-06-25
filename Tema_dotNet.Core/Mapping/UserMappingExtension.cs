@@ -10,10 +10,10 @@ namespace Tema_dotNet.Core.Mapping
         {
             return new User
             {
-                Name = userRequestDto.Name,
+                Nume = userRequestDto.Nume,
                 Email = userRequestDto.Email,
-                Password = userRequestDto.Password,
-                RoleId = userRequestDto.RoleId
+                Parola = userRequestDto.Parola,
+                RolId = userRequestDto.RolId
             };
         }
 
@@ -22,9 +22,9 @@ namespace Tema_dotNet.Core.Mapping
             return new UserResponseDto
             {
                 Id = user.Id,
-                Name = user.Name,
+                Nume = user.Nume,
                 Email = user.Email,
-                Role = user.Role.Name
+                Rol = user.Rol.Nume
             };
         }
 

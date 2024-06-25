@@ -10,7 +10,6 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Tema_dotNet.Core.Dto;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -51,13 +50,13 @@ builder.Services.AddScoped<ProducatorRepository>();
 builder.Services.AddScoped<ProducatorService>();
 builder.Services.AddScoped<ProdusRepository>();
 builder.Services.AddScoped<ProdusService>();
-builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+builder.Services.AddScoped<AuthenticationService>();
 
-builder.Services.AddScoped<IRoleService, RoleService>();
-builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<RolService>();
+builder.Services.AddScoped< RolRepository>();
 
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped< UserService>();
+builder.Services.AddScoped<UserRepository>();
 
 
 // Authentication & Authorization

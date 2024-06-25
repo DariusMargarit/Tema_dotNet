@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Tema_dotNet.Core.Services
 {
-    public class AuthenticationService : IAuthenticationService
+    public class AuthenticationService
     {
         private readonly IConfiguration _configuration;
 
@@ -20,8 +20,8 @@ namespace Tema_dotNet.Core.Services
         {
             List<Claim> claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.Name),
-                new Claim(ClaimTypes.Role, user.Role.Name)
+                new Claim(ClaimTypes.Name, user.Nume),
+                new Claim(ClaimTypes.Role, user.Rol.Nume)
             };
 
             SymmetricSecurityKey key =

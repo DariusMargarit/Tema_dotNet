@@ -4,15 +4,15 @@ using Tema_dotNet.Core.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Tema_dotNet.Api.Controllers
+namespace Tema_dotNet.Controllers
 {
     [Authorize(Roles = "Admin")]
     [Route("api/Users")]
-    public class UsersController : ControllerBase
+    public class UserController : ControllerBase
     {
-        private readonly IUserService _userService;
+        private readonly UserService _userService;
 
-        public UsersController(IUserService userService)
+        public UserController(UserService userService)
         {
             _userService = userService;
         }

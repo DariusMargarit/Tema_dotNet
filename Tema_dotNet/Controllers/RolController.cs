@@ -4,35 +4,35 @@ using Tema_dotNet.Core.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Tema_dotNet.Api.Controllers
+namespace Tema_dotNet.Controllers
 {
     [Authorize(Roles = "Admin")]
     [Route("api/Roles")]
-    public class RolesController : ControllerBase
+    public class RolController : ControllerBase
     {
-        private readonly IRoleService _roleService;
+        private readonly RolService _rolService;
 
-        public RolesController(IRoleService roleService)
+        public RolController(RolService rolService)
         {
-            _roleService = roleService;
+            _rolService = rolService;
         }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public ActionResult<List<RoleResponseDto>> GetRoles()
+        public ActionResult<List<RolResponseDto>> GetRoles()
         {
-            return Ok(_roleService.GetAll());
+            return Ok(_rolService.GetAll());
         }
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
 
-        public IActionResult CreateRole([FromBody] RoleRequestDto role)
+        public IActionResult CreateRole([FromBody] RolRequestDto rol)
         {
             try
             {
-                _roleService.Create(role);
+                _rolService.Create(rol);
                 return StatusCode(StatusCodes.Status201Created);
             }
             catch (Exception e)
@@ -45,11 +45,11 @@ namespace Tema_dotNet.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
 
-        public IActionResult UpdateRole([FromRoute] int id, [FromBody] RoleRequestDto role)
+        public IActionResult UpdateRole([FromRoute] int id, [FromBody] RolRequestDto rol)
         {
             try
             {
-                _roleService.Update(id, role);
+                _rolService.Update(id, rol);
                 return Ok();
             }
             catch (Exception e)
@@ -66,7 +66,7 @@ namespace Tema_dotNet.Api.Controllers
         {
             try
             {
-                _roleService.Delete(id);
+                _rolService.Delete(id);
                 return Ok();
             }
             catch (Exception e)

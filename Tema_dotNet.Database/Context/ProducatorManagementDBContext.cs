@@ -14,12 +14,12 @@ namespace Tema_dotNet.Database.Context
         public DbSet<Produs> Produse { get; set; }
         public DbSet<User> Users { get; set; }
 
-        public DbSet<Role> Roles { get; set; }
+        public DbSet<Rol> Roles { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder
-                    .UseSqlServer("Server=localhost;Database=ProducatorManagement;User Id=sa;Password=sa123;TrustServerCertificate=True").LogTo(Console.WriteLine);
+                    .UseSqlServer("Server=localhost;Database=ProducatorManagement;User Id=sa1;Password=Admin123!;TrustServerCertificate=True").LogTo(Console.WriteLine);
         }
     }
 }

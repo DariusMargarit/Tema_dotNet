@@ -5,12 +5,12 @@ using Tema_dotNet.Database.Repositories;
 
 namespace Tema_dotNet.Core.Services
 {
-    public class UserService : IUserService
+    public class UserService 
     {
-        private readonly IUserRepository _userRepository;
-        private readonly IAuthenticationService _authenticationService;
+        private readonly UserRepository _userRepository;
+        private readonly AuthenticationService _authenticationService;
 
-        public UserService(IUserRepository userRepository, IAuthenticationService authenticationService)
+        public UserService(UserRepository userRepository, AuthenticationService authenticationService)
         {
             _userRepository = userRepository;
             _authenticationService = authenticationService;
@@ -20,8 +20,8 @@ namespace Tema_dotNet.Core.Services
         {
             try
             {
-                string passwordHash = BCrypt.Net.BCrypt.HashPassword(userRequestDto.Password);
-                userRequestDto.Password = passwordHash;
+                string passwordHash = BCrypt.Net.BCrypt.HashPassword(userRequestDto.Parola);
+                userRequestDto.Parola = passwordHash;
                 var user = userRequestDto.MapToUser();
                 _userRepository.Register(user);
 
@@ -38,7 +38,7 @@ namespace Tema_dotNet.Core.Services
             {
                 var user = _userRepository.GetByEmail(loginDto.Email);
 
-                if (!BCrypt.Net.BCrypt.Verify(loginDto.Password, user.Password))
+                if (!BCrypt.Net.BCrypt.Verify(loginDto.Parola, user.Parola))
                 {
                     throw new Exception("Invalid password");
                 }

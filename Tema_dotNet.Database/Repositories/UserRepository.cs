@@ -4,28 +4,32 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Tema_dotNet.Database.Repositories
 {
-    public class UserRepository : BaseRepository, IUserRepository
+    public class UserRepository 
     {
-        public UserRepository(ProducatorManagementDBContext producatorManagementDBContext) : base(producatorManagementDBContext)
+        private readonly ProducatorManagementDBContext _context;
+
+        public UserRepository(ProducatorManagementDBContext context)
         {
+            _context = context;
+
         }
 
         public void Register(User user)
         {
-            if (_producatorManagementDbContext.Users.Any(u => u.Email == user.Email))
+            if (_context.Users.Any(u => u.Email == user.Email))
             {
                 throw new Exception("Email already exists");
             }
 
-            (_producatorManagementDbContext).Users.Add(user);
-            SaveChanges();
+            (_context).Users.Add(user);
+            _context.SaveChanges();
         }
 
         public User GetByEmail(string email)
         {
-            var user = _producatorManagementDbContext.Users
+            var user = _context.Users
                                         .Where(u => u.Email == email)
-                                        .Include(u => u.Role)
+                                        .Include(u => u.Rol)
                                         .FirstOrDefault();
             if (user == null)
             {
@@ -37,16 +41,16 @@ namespace Tema_dotNet.Database.Repositories
 
         public List<User> GetAll()
         {
-            return _producatorManagementDbContext.Users
-                                    .Include(u => u.Role)
+            return _context.Users
+                                    .Include(u => u.Rol)
                                     .ToList();
         }
 
         public User Get(int id)
         {
-            var user = _producatorManagementDbContext.Users
+            var user = _context.Users
                                         .Where(u => u.Id == id)
-                                        .Include(u => u.Role)
+                                        .Include(u => u.Rol)
                                         .FirstOrDefault();
             if (user == null)
             {
@@ -58,41 +62,41 @@ namespace Tema_dotNet.Database.Repositories
 
         public void Update(int id, User updatedUser)
         {
-            var user = _producatorManagementDbContext.Users.Find(id);
+            var user = _context.Users.Find(id);
             if (user == null)
             {
                 throw new Exception("User not found");
             }
 
-            var role = _producatorManagementDbContext.Roles.Find(updatedUser.RoleId);
+            var role = _context.Roles.Find(updatedUser.RolId);
             if (role == null)
             {
-                throw new Exception("Role not found");
+                throw new Exception("Rol not found");
             }
 
-            if (_producatorManagementDbContext.Users.Any(u => u.Email == updatedUser.Email && u.Email != user.Email))
+            if (_context.Users.Any(u => u.Email == updatedUser.Email && u.Email != user.Email))
             {
                 throw new Exception("Email already exists");
             }
 
-            user.Name = updatedUser.Name;
+            user.Nume = updatedUser.Nume;
             user.Email = updatedUser.Email;
-            user.Password = updatedUser.Password;
-            user.RoleId = updatedUser.RoleId;
+            user.Parola = updatedUser.Parola;
+            user.RolId = updatedUser.RolId;
 
-            SaveChanges();
+            _context.SaveChanges();
         }
 
         public void Delete(int id)
         {
-            var user = _producatorManagementDbContext.Users.Find(id);
+            var user = _context.Users.Find(id);
             if (user == null)
             {
                 throw new Exception("User not found");
             }
 
-            _producatorManagementDbContext.Users.Remove(user);
-            SaveChanges();
+            _context.Users.Remove(user);
+            _context.SaveChanges();
         }
     }
 }
