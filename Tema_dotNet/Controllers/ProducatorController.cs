@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Tema_dotNet.Core.Dto.Request;
 using Tema_dotNet.Core.Dto.Response;
 using Tema_dotNet.Core.Services;
 
 namespace Tema_dotNet.Controllers
 {
+    [Authorize(Roles = "User,Admin")]
     [Route("api/producatori")]
     public class ProducatoriController : ControllerBase
     {
@@ -27,8 +29,17 @@ namespace Tema_dotNet.Controllers
         [Route("add")]
         public IActionResult AddProducatori([FromBody] AddProducatorRequestDto payload)
         {
-            _producatorService.AddProducator(payload);
+            try
+            {
+                _producatorService.AddProducator(payload);
+                
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
             return Ok();
+
         }
 
         [HttpPut]

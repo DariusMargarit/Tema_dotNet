@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Tema_dotNet.Controllers
 {
     [Authorize(Roles = "Admin")]
-    [Route("api/Roles")]
+    [Route("api/Rol")]
     public class RolController : ControllerBase
     {
         private readonly RolService _rolService;

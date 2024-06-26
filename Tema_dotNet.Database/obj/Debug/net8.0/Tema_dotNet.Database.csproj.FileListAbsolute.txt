@@ -1,0 +1,15 @@
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\bin\Debug\net8.0\Tema_dotNet.Database.deps.json
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\bin\Debug\net8.0\Tema_dotNet.Database.runtimeconfig.json
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\bin\Debug\net8.0\Tema_dotNet.Database.dll
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\bin\Debug\net8.0\Tema_dotNet.Database.pdb
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.csproj.AssemblyReference.cache
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.AssemblyInfoInputs.cache
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.AssemblyInfo.cs
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.csproj.CoreCompileInputs.cache
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.sourcelink.json
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.dll
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\refint\Tema_dotNet.Database.dll
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.pdb
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\Tema_dotNet.Database.genruntimeconfig.cache
+C:\Users\40754\Desktop\Anul 2\Semestrul 2\Tema_dotNet\Tema_dotNet.Database\obj\Debug\net8.0\ref\Tema_dotNet.Database.dll

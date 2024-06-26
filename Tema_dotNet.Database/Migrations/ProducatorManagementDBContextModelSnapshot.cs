@@ -63,7 +63,7 @@ namespace Tema_dotNet.Database.Migrations
                     b.ToTable("Produse");
                 });
 
-            modelBuilder.Entity("Tema_dotNet.Database.Entities.Role", b =>
+            modelBuilder.Entity("Tema_dotNet.Database.Entities.Rol", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -71,7 +71,7 @@ namespace Tema_dotNet.Database.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Nume")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -92,20 +92,20 @@ namespace Tema_dotNet.Database.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Nume")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Password")
+                    b.Property<string>("Parola")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("RoleId")
+                    b.Property<int>("RolId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RoleId");
+                    b.HasIndex("RolId");
 
                     b.ToTable("Users");
                 });
@@ -123,13 +123,13 @@ namespace Tema_dotNet.Database.Migrations
 
             modelBuilder.Entity("Tema_dotNet.Database.Entities.User", b =>
                 {
-                    b.HasOne("Tema_dotNet.Database.Entities.Role", "Role")
+                    b.HasOne("Tema_dotNet.Database.Entities.Rol", "Rol")
                         .WithMany("Users")
-                        .HasForeignKey("RoleId")
+                        .HasForeignKey("RolId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Role");
+                    b.Navigation("Rol");
                 });
 
             modelBuilder.Entity("Tema_dotNet.Database.Entities.Producator", b =>
@@ -137,7 +137,7 @@ namespace Tema_dotNet.Database.Migrations
                     b.Navigation("Produse");
                 });
 
-            modelBuilder.Entity("Tema_dotNet.Database.Entities.Role", b =>
+            modelBuilder.Entity("Tema_dotNet.Database.Entities.Rol", b =>
                 {
                     b.Navigation("Users");
                 });

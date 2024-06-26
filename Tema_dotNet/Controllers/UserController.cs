@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Tema_dotNet.Controllers
 {
     [Authorize(Roles = "Admin")]
-    [Route("api/Users")]
+    [Route("api/User")]
     public class UserController : ControllerBase
     {
         private readonly UserService _userService;

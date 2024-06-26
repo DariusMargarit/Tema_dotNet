@@ -1,0 +1,528 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\mapping\\usermappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\request\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet\\controllers\\produscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:controllers\\produscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet\\controllers\\producatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:controllers\\producatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\request\\addprodusrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\migrations\\producatormanagementdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\migrations\\20240625190611_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\services\\produsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\services\\producatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\services\\rolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\repositories\\producatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\repositories\\produsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\entities\\produs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\mapping\\rolmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\response\\rolresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\request\\rolrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\context\\producatormanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413778F7-142E-495D-820E-28CFB97277AB}|..\\Tema_dotNet.Database\\Tema_dotNet.Database.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.database\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Migrations\\20240625190219_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\request\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\response\\producatorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\dto\\request\\addproducatorrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5234A96-849D-4960-AB45-89F62424E5C3}|..\\Tema_dotNet.Core\\Tema_dotNet.Core.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet.core\\services\\authentificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|c:\\users\\40754\\desktop\\anul 2\\semestrul 2\\tema_dotnet\\tema_dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F52E624-1742-4E26-8AE6-846E1D25B2EB}|Tema_dotNet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdusController.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\ProdusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdusController.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\ProdusController.cs",
+              "RelativeToolTip": "Controllers\\ProdusController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:17:38.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\RolController.cs",
+              "RelativeToolTip": "Controllers\\RolController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T20:24:35.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T20:25:11.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\UserRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Request\\UserRequestDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\UserRequestDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Request\\UserRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:32:08.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Response\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Response\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Response\\UserResponseDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Response\\UserResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:44:44.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMappingExtension.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Mapping\\UserMappingExtension.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Mapping\\UserMappingExtension.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Mapping\\UserMappingExtension.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Mapping\\UserMappingExtension.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:44:48.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Services\\UserService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:43:02.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProducatorController.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\ProducatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProducatorController.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Controllers\\ProducatorController.cs",
+              "RelativeToolTip": "Controllers\\ProducatorController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:20:33.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddProdusRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\AddProdusRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Request\\AddProdusRequestDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\AddProdusRequestDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Request\\AddProdusRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:32:19.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProducatorManagementDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Migrations\\ProducatorManagementDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Migrations\\ProducatorManagementDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Migrations\\ProducatorManagementDBContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Migrations\\ProducatorManagementDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAiwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:54:57.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProducatorService.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Services\\ProducatorService.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:19:38.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProducatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Repositories\\ProducatorRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:19:45.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240625190611_initialcreate.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Migrations\\20240625190611_initialcreate.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Migrations\\20240625190611_initialcreate.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Migrations\\20240625190611_initialcreate.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Migrations\\20240625190611_initialcreate.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAwFkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T19:06:12.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RolService.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\RolService.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Services\\RolService.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\RolService.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Services\\RolService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:19:21.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProdusService.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\ProdusService.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Services\\ProdusService.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\ProdusService.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Services\\ProdusService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwEIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:28:19.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProdusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\ProdusRepository.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Repositories\\ProdusRepository.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\ProdusRepository.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Repositories\\ProdusRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAowDwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:44:13.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Produs.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Entities\\Produs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:37:11.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\RolRepository.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Repositories\\RolRepository.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\RolRepository.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Repositories\\RolRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:20:10.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RolMappingExtension.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Mapping\\RolMappingExtension.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Mapping\\RolMappingExtension.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Mapping\\RolMappingExtension.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Mapping\\RolMappingExtension.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:35:32.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RolResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Response\\RolResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Response\\RolResponseDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Response\\RolResponseDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Response\\RolResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:34:24.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwGIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:28:05.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RolRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\RolRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Request\\RolRequestDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\RolRequestDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Request\\RolRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:44:39.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:38:17.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Entities\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Entities\\Rol.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Entities\\Rol.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Entities\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:37:09.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProducatorManagementDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Context\\ProducatorManagementDBContext.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Context\\ProducatorManagementDBContext.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Context\\ProducatorManagementDBContext.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Context\\ProducatorManagementDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T16:01:28.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240625190219_initialcreate.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Migrations\\20240625190219_initialcreate.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Database\\Migrations\\20240625190219_initialcreate.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Database\\Migrations\\20240625190219_initialcreate.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Database\\Migrations\\20240625190219_initialcreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T19:02:21.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Request\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\LoginRequestDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Request\\LoginRequestDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:32:23.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProducatorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Response\\ProducatorResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:41:45.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddProducatorRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\AddProducatorRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Dto\\Request\\AddProducatorRequestDto.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Dto\\Request\\AddProducatorRequestDto.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Dto\\Request\\AddProducatorRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:32:16.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswDoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T20:27:49.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthentificationService.cs",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\AuthentificationService.cs",
+              "RelativeDocumentMoniker": "..\\Tema_dotNet.Core\\Services\\AuthentificationService.cs",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet.Core\\Services\\AuthentificationService.cs",
+              "RelativeToolTip": "..\\Tema_dotNet.Core\\Services\\AuthentificationService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T18:24:27.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\40754\\Desktop\\Anul 2\\Semestrul 2\\Tema_dotNet\\Tema_dotNet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T16:11:53.162Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

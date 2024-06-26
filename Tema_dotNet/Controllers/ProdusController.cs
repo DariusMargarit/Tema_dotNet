@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Tema_dotNet.Core.Dto.Response;
 using Tema_dotNet.Core.Dto.Request;
 using Tema_dotNet.Core.Services;
 
 namespace Tema_dotNet.Controllers
 {
+    [Authorize(Roles = "User,Admin")]
     [Route("api/produse")]
     public class ProdusController : ControllerBase
     {
@@ -27,7 +29,15 @@ namespace Tema_dotNet.Controllers
         [Route("add")]
         public IActionResult AddProdus([FromBody] AddProdusRequestDto payload)
         {
-            _produsService.AddProdus(payload);
+            try
+            {
+                _produsService.AddProdus(payload);
+            }
+            catch (Exception e)
+            {
+               return BadRequest(e.Message);
+            }
+           
             return Ok();
         }
 

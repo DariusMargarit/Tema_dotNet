@@ -27,27 +27,44 @@ namespace Tema_dotNet.Core.Services
 
         public void AddProdus(AddProdusRequestDto payload)
         {
-            _produsRepository.AddProdus(payload.ToEntity());
+            try
+            {
+                _produsRepository.AddProdus(payload.ToEntity());
+            }
+            catch (Exception e)
+            {
+
+                throw new Exception(e.Message);
+            }
+            
         }
 
         public void EditProdus(int produsId, EditProdusRequestDto payload)
         {
-            var produs = _produsRepository.GetById(produsId);
-            if (produs == null)
+            try
             {
-                throw new Exception("Produs not found");
+                var produs = _produsRepository.GetById(produsId);
+                _produsRepository.EditProdus(produs, payload.ToEntity());
             }
-            _produsRepository.EditProdus(produs, payload.ToEntity());
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+            
         }
 
         public void DeleteProdus(int produsId)
         {
-            var produs = _produsRepository.GetById(produsId);
-            if (produs == null)
+            try
             {
-                throw new Exception("Produs not found");
+                var produs = _produsRepository.GetById(produsId);
+                _produsRepository.DeleteProdus(produs);
             }
-            _produsRepository.DeleteProdus(produs);
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+          
         }
     }
 }
